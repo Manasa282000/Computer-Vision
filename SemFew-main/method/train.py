@@ -115,9 +115,9 @@ if __name__ == '__main__':
                             num_workers=args.num_workers, pin_memory=True)
     
     if args.backbone == 'resnet':
-        proto_center = torch.load('center_{}_{}.pth'.format(args.dataset, args.backbone))[args.center]
+        proto_center = torch.load('center_{}_{}.pth'.format(args.dataset, args.backbone),weights_only=False)[args.center]
     elif args.backbone == 'swin':
-        proto_center = torch.load('center_{}_{}.pth'.format(args.dataset, args.backbone))[args.center]
+        proto_center = torch.load('center_{}_{}.pth'.format(args.dataset, args.backbone),weights_only=False)[args.center]
      
     if args.backbone == 'resnet':
         model = Res12(avg_pool=True, drop_block='ImageNet' in args.dataset).to(device)

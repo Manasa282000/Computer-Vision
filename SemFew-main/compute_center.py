@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 from torchvision.datasets import ImageFolder
 from tqdm import tqdm
 
-from data.tiered_imagenet import tieredImageNet
+#from data.tiered_imagenet import tieredImageNet
 from model.res12 import Res12
 from model.swin_transformer import swin_tiny
 import torch.utils.data
