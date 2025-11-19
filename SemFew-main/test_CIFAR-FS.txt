@@ -1,0 +1,10 @@
+2025-11-19 15:03:32,976 - test.py[line:51] - INFO: {'test_batch': 600, 'shot': 1, 'query': 15, 'test_way': 5, 'center': 'mean', 'seed': 13, 'feat_size': 640, 'semantic_size': 512, 'num_workers': 8, 'mode': 'clip', 'text_type': 'gpt', 'dataset': 'CIFAR-FS', 'backbone': 'resnet', 'model_path': './checkpoints/ResNet-CIFAR-FS.pth', 'work_dir': 'resnet_CIFAR-FS_clip_gpt_mean_1'}
+2025-11-19 15:03:33,408 - test.py[line:107] - INFO: best epoch: 20 78.142224
+2025-11-19 15:03:33,408 - test.py[line:108] - INFO: best k: 0.180000
+2025-11-19 15:03:53,138 - test.py[line:144] - INFO: max |k:             0.18 |mix acc: 82.75+0.71% |gap: 11.16
+2025-11-19 15:03:53,138 - test.py[line:146] - INFO: ACC:|proto acc: 71.59+0.88% |gen acc: 79.92+0.78%
+2025-11-19 16:02:24,250 - test.py[line:51] - INFO: {'test_batch': 600, 'shot': 5, 'query': 15, 'test_way': 5, 'center': 'mean', 'seed': 13, 'feat_size': 640, 'semantic_size': 512, 'num_workers': 8, 'mode': 'clip', 'text_type': 'gpt', 'dataset': 'CIFAR-FS', 'backbone': 'resnet', 'model_path': './checkpoints/ResNet-CIFAR-FS.pth', 'work_dir': 'resnet_CIFAR-FS_clip_gpt_mean_5'}
+2025-11-19 16:02:24,676 - test.py[line:107] - INFO: best epoch: 19 81.646669
+2025-11-19 16:02:24,676 - test.py[line:108] - INFO: best k: 0.540000
+2025-11-19 16:02:48,714 - test.py[line:144] - INFO: max |k:             0.54 |mix acc: 87.17+0.56% |gap: 1.22
+2025-11-19 16:02:48,714 - test.py[line:146] - INFO: ACC:|proto acc: 85.95+0.62% |gen acc: 80.06+0.77%

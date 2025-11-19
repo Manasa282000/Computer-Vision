@@ -4,3 +4,13 @@
 2025-11-19 07:21:18,664 - test.py[line:108] - INFO: best k: 0.190000
 2025-11-19 07:21:37,641 - test.py[line:144] - INFO: max |k:             0.19 |mix acc: 51.35+0.73% |gap: 8.38
 2025-11-19 07:21:37,641 - test.py[line:146] - INFO: ACC:|proto acc: 42.96+0.74% |gen acc: 45.95+0.75%
+2025-11-19 13:01:37,002 - test.py[line:51] - INFO: {'test_batch': 600, 'shot': 1, 'query': 15, 'test_way': 5, 'center': 'mean', 'seed': 13, 'feat_size': 640, 'semantic_size': 512, 'num_workers': 8, 'mode': 'clip', 'text_type': 'gpt', 'dataset': 'FC100', 'backbone': 'resnet', 'model_path': './checkpoints/ResNet-FC100.pth', 'work_dir': 'resnet_FC100_clip_gpt_mean_1'}
+2025-11-19 13:01:37,536 - test.py[line:107] - INFO: best epoch: 30 45.151112
+2025-11-19 13:01:37,536 - test.py[line:108] - INFO: best k: 0.190000
+2025-11-19 13:01:58,556 - test.py[line:144] - INFO: max |k:             0.19 |mix acc: 51.35+0.73% |gap: 8.38
+2025-11-19 13:01:58,556 - test.py[line:146] - INFO: ACC:|proto acc: 42.96+0.74% |gen acc: 45.95+0.75%
+2025-11-19 13:58:54,425 - test.py[line:51] - INFO: {'test_batch': 600, 'shot': 5, 'query': 15, 'test_way': 5, 'center': 'mean', 'seed': 13, 'feat_size': 640, 'semantic_size': 512, 'num_workers': 8, 'mode': 'clip', 'text_type': 'gpt', 'dataset': 'FC100', 'backbone': 'resnet', 'model_path': './checkpoints/ResNet-FC100.pth', 'work_dir': 'resnet_FC100_clip_gpt_mean_5'}
+2025-11-19 13:58:54,862 - test.py[line:107] - INFO: best epoch: 14 57.008890
+2025-11-19 13:58:54,863 - test.py[line:108] - INFO: best k: 0.610000
+2025-11-19 13:59:18,183 - test.py[line:144] - INFO: max |k:             0.61 |mix acc: 60.45+0.77% |gap: 1.53
+2025-11-19 13:59:18,184 - test.py[line:146] - INFO: ACC:|proto acc: 58.93+0.78% |gen acc: 46.33+0.72%

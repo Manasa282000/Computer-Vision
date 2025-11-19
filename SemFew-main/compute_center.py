@@ -41,7 +41,7 @@ def main():
     elif args.dataset == 'FC100':
         trainset = ImageFolder('./Datasets/FC100/train', transform=transform_val_cifar if args.backbone == 'resnet' else transform_val_224_cifar)
     elif args.dataset == 'CIFAR-FS':
-        trainset = ImageFolder('/path/to/your/cifar-fs/train', transform=transform_val_cifar if args.backbone == 'resnet' else transform_val_224_cifar)
+        trainset = ImageFolder('./Datasets/cifar-f5/train', transform=transform_val_cifar if args.backbone == 'resnet' else transform_val_224_cifar)
     elif args.dataset == 'TieredImageNet':
         trainset = tieredImageNet(setname='train', augment=False)
 
