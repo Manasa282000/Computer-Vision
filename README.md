@@ -28,14 +28,7 @@ We propose a semantic evolution approach for automatic collection of rich semant
 |:--------:|:------------:|:------------:|
 | FC100 |    54.27 ± 0.77     |    65.02 ± 0.72    |
 |  CIFAR-FS  |     84.34 ± 0.67     |     89.11 ± 0.54    |
-| MiniImageNet |    78.94 ± 0.66     |     86.49 ± 0.50    |
-| TieredImageNet |      82.37 ± 0.77     |     89.89 ± 0.52    |
 
-# Cross Domain Few-shot Learning Results
-|  Dataset  | 1-Shot 5-Way | 5-Shot 5-Way |  
-|:--------:|:------------:|:------------:|
-| CUB      |    59.07     |    72.47    |
-|  Places  |    64.01     |    74.70    |
 
 # Prerequisites
 
